@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>Valentine's Day Base Map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+</script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.4.0/leaflet.css"/>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css" rel='stylesheet'/>
+    <script src="http://cdn.leafletjs.com/leaflet/v1.4.0/leaflet.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js"></script>
+    <script src="http://rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+</head>
+<body>
+<script>
+    mapbox_token = 'pk.eyJ1IjoicGxvYnJpZW4iLCJhIjoiY2pzYXVsMm9yMDNtNTRibzhkbWlxcTZ4ZiJ9.oDC11movu93zeEVgR4KYbA';
+    var gl = L.mapboxGL({
+      accessToken: mapbox_token,
+      style: 'assets/style.json',
+      attribution: 'Created By <a href="https://github.com/plobrien">Paul O'Brien</a> based on the <a href="assets/license.txt">Mapbox basic style</a>'
+    }).addTo(map);
+</script>
+</body>
+</html>
