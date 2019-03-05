@@ -1,1 +1,2 @@
-# ValentinesDayBaseMap
+# Lab 4
+I decided to create a Valentine's Day themed base map to recieve the additional points for Lab 4. Valentine's Day has pretty recognizably associated colors with it so deciding on what colors to use wasn't very difficult. I used red, pink, and white. To achieve the theme across the whole base map I had to use varying shades of red, pink, and white to differeniate all the different roads, highways, sidewalks, etc. 
